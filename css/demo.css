@@ -1,0 +1,30 @@
+.mypara{
+    font-family: 'Franklin Gothic Medium';
+    font-weight: bold;
+    font-size:30px;
+}
+.mypara:hover{
+    background-color: red;
+}
+/*width 100%,border,heading row bg color green mouse over grey
+
+rest of the rows bg color =yellow mouse over bgcolor =orange
+*/
+.header_row{
+    background-color: green;
+}
+.header_row:hover{
+    background-color: indianred ;
+}
+.rows:nth-child(odd){
+background-color: indigo;
+}
+.rows:nth-child(even){
+    background-color: grey;
+    }
+.rows:nth-child(odd):hover{
+    background-color: lightblue;
+}
+.rows:nth-child(even):hover{
+    background-color: rgb(1, 1, 12);
+}

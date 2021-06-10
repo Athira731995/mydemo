@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+<video controls width="300" height="300">
+    <source src="../video/zoom_0.mp4" type="video/mp4">
+</video>
+
+    <form action="../index.html"  method="post">
+        <div>
+            <label for="">FirstName</label>
+        </div>
+        <div>
+            <input type="text" name="fname" required minlength="3" maxlength="5">
+        </div>
+        <div>
+            <label for="">Email</label>
+        </div>
+        <div>
+            <input type="email" name="email" placeholder="Enter Your Email id">
+        </div>
+        <div>
+            <label for="">Password</label>
+        </div>
+        <div>
+            <input type="password" name="password">
+        </div>
+        <div>
+            <label for="">Age</label>
+        </div>
+        <div>
+            <input type="number" name="age" min=18 max=30>
+        </div>
+        <div>
+            <label for="">State</label>
+        </div>
+        <div>
+            <select name="state" id="">
+                <option value="kl">Kerala</option>
+                <option value="tn">TamilNadu</option>
+                <option value="goa">Goa</option>
+            </select>
+        </div>
+        <div>
+            <label for="">Gender</label>
+        </div>
+        <div>
+        Male  <input type="radio" name="gender" value="male">
+        female <input type="radio" name="gender" value="female">
+        </div>
+
+        <input type="submit" value="Save">
+
+
+    </form>
+</body>
+
+</html>
